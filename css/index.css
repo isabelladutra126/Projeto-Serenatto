@@ -2,9 +2,51 @@
     width: 500px;
 }
 
+.header {
+    top: 0;
+    padding: 20px 20px;
+    display: flex;
+    align-items: center;     
+    background-color: #473b23; 
+    justify-content: space-between; 
+}
+
+.logo-admin {
+    width: 150px;
+    height: auto; 
+}
+
+.botao-login, .botao-sobrenos {
+    background: #EBC181;
+    color: #333B1E;
+    font-weight: 600;
+    margin-right: 10px; 
+    border-radius: 10px;
+    padding: 10px 20px;
+    border: none;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.botoes-container {
+    display: flex; 
+    align-items: center; 
+}
+
+
+footer {
+	background-color:#473b23; 
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+	margin-top: 50px;
+}
+
+
 body{
     background-color: #333B1E;
     font-family: 'Barlow', sans-serif;
+    
 }
 main{
     height: 100vh;

@@ -1,0 +1,29 @@
+p{
+    text-align: center;
+    font-size: 30px;
+    margin: 20px 0px;
+    color: #FFF;
+    font-weight: bold;
+}
+
+p a{
+    color:  #EBC181; ;
+}
+
+.logo-admin2 {
+    width: 150px;
+    height: auto; 
+}
+
+
+.container {
+
+    position: absolute;
+    
+    top: 50%;
+    
+    left: 50%;
+    
+    transform: translate(-50%, -50%);
+    
+    }

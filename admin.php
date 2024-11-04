@@ -27,6 +27,12 @@
   <title>Serenatto - Admin</title>
 </head>
 <body>
+<div class="header" id="myHeader">
+      <a href="index.php"><img src="img/logo-serenatto-horizontal.png" class="logo-admin2" alt="logo-serenatto"></a>
+        <div class="botoes-header">
+          <a class="botao-login" href="index.php">Voltar para o Menu</a>
+        </div>
+  </div>
 <main>
   <section class="container-admin-banner">
     <img src="img/logo-serenatto-horizontal.png" class="logo-admin" alt="logo-serenatto">

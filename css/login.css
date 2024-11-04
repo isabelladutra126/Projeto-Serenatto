@@ -1,0 +1,26 @@
+.header {
+    top: 0;
+    padding: 20px 20px;
+    display: flex;
+    align-items: center;     
+    background-color: #473b23; 
+    justify-content: space-between; 
+}
+
+    .logo-admin2 {
+        width: 150px;
+        height: auto; 
+    }
+
+
+.botao-sobrenos {
+    background: #EBC181;
+    color: #333B1E;
+    font-weight: 600;
+    margin-right: 10px; 
+    border-radius: 10px;
+    padding: 10px 20px;
+    border: none;
+    text-decoration: none;
+    cursor: pointer;
+}

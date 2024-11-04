@@ -8,7 +8,7 @@
     if (isset($_POST['editar'])){
         $produto = new Produto($_POST['id'], $_POST['tipo'], $_POST['nome'], $_POST['descricao'], $_POST['preco']);
 
-        if (isset($_FILES['imagem'])){
+        if ($_FILES['imagem']['error'] == UPLOAD_ERR_OK){
             $produto->setImagem(uniqid() . $_FILES['imagem']['name']);
             move_uploaded_file($_FILES['imagem']['tmp_name'], $produto->getImagemDiretorio());
         }
@@ -47,6 +47,12 @@
 </head>
 <body>
 <main>
+<div class="header" id="myHeader">
+      <a href="index.php"><img src="img/logo-serenatto-horizontal.png" class="logo-admin2" alt="logo-serenatto"></a>
+        <div class="botoes-header">
+          <a class="botao-login" href="index.php">Voltar para o Menu</a>
+        </div>
+  </div>
   <section class="container-admin-banner">
     <img src="img/logo-serenatto-horizontal.png" class="logo-admin" alt="logo-serenatto">
     <h1>Editar Produto</h1>
